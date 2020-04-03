@@ -24,7 +24,7 @@ def align_hyp(ref, hyp):
     out = []
     for i in range(len(ref)):
         if len(ref[i]) != len(hyp[i]):
-            raise ValueError("Size Mismatch: ref: {} & hyp: {}".format(len(ref), len(hyp)))
+            raise ValueError("Size Mismatch: ref: {} & hyp: {}".format(len(ref[i]), len(hyp[i])))
         out.append([(*ref[i][j], hyp[i][j][-1]) for j in range(len(ref[i]))])
     return out
 
