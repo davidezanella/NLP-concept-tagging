@@ -2,10 +2,10 @@
 
 Midterm project for the **Language Understand System** course 2019/2020 @ UniTn.
 
-Concept tagging for the movie domain. The models were trained and performed using the following dataset: [NL2SparQL4NLU](https://github.com/esrel/NL2SparQL4NLU)
+Concept tagging for the movie domain. The models were trained and performed using the following dataset: [NL2SparQL4NLU](https://github.com/esrel/NL2SparQL4NLU).
 
-### Results
-| Baseline | Remove of OoS | Use of POS | Normalization | F1-score | Accuracy | Precision | Recall |
+### Results - SCLM
+| Baseline | Remove of OoS | Use of POS tags | Normalization | F1-score | Accuracy | Precision | Recall |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
 | *None* | | | | **0.723** | 0.915 | 0.751 | 0.696 |
 | *Random path* | | | | **0.019** | 0.395 | 0.014 | 0.033 |
@@ -13,3 +13,4 @@ Concept tagging for the movie domain. The models were trained and performed usin
 | *MLE* | | | | **0.723** | 0.915 | 0.718 | 0.728 |
 | *MLE* | :ballot_box_with_check: | | | **0.805** | 0.940 | 0.785 | 0.827 |
 | *MLE* | :ballot_box_with_check: | :ballot_box_with_check: | | **0.811** | 0.942 | 0.805 | 0.817 |
+| *MLE* | :ballot_box_with_check: | :ballot_box_with_check: | :ballot_box_with_check: | **0.810** | 0.940 | 0.808 | 0.813 |
