@@ -13,7 +13,7 @@ Concept tagging for the movie domain. The models were trained and performed usin
 | *MLE* | | | | **0.7223** | 0.9127 | 0.7197 | 0.7250 |
 | *MLE* | :ballot_box_with_check: | | | **0.7466** | 0.9055 | 0.6883 | 0.8157 |
 | *MLE* | :ballot_box_with_check: | :ballot_box_with_check: | | **0.8119** | 0.9421 | 0.8046 | 0.8194 |
-| *MLE* | :ballot_box_with_check: | :ballot_box_with_check: | :ballot_box_with_check: | **0.8117** | 0.9404 | 0.8094 | 0.8139 |
+| *MLE* | :ballot_box_with_check: | :ballot_box_with_check: | :ballot_box_with_check: | **0.8021** | 0.9380 | 0.7960 | 0.8084 |
 
 ### Results - HMM
 | Estimator | Remove of OoS | Use of POS tags | Normalization | F1-score | Accuracy | Precision | Recall |
@@ -27,4 +27,4 @@ Concept tagging for the movie domain. The models were trained and performed usin
 | *Lindstone 0.1* | | | | **0.7213** | 0.9130 | 0.7213 | 0.7213 |
 | *Witten Bell* + *Witten Bell* | :ballot_box_with_check: | | | **0.7862** | 0.9326 | 0.7821 | 0.7873 |
 | *Witten Bell* + *Witten Bell* + *Witten Bell* | :ballot_box_with_check: | :ballot_box_with_check: | | **0.7576** | 0.9277 | 0.7618 | 0.7534 |
-| *Witten Bell* + *Witten Bell* + *Witten Bell* + *Witten Bell* | :ballot_box_with_check: | :ballot_box_with_check: | :ballot_box_with_check: | **0.7364** | 0.9199 | 0.7378 | 0.7351 |
+| *Witten Bell* + *Witten Bell* + *Witten Bell* + *Witten Bell* | :ballot_box_with_check: | :ballot_box_with_check: | :ballot_box_with_check: | **0.7311** | 0.9178 | 0.7318 | 0.7305 |
