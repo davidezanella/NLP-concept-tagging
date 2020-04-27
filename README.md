@@ -1,6 +1,6 @@
 # LUS midterm project
 
-Midterm project for the **Language Understand System** course 2019/2020 @ UniTN.
+Midterm project for the **Language Understanding System** course 2019/2020 @ UniTN.
 
 Concept tagging for the movie domain. The models were trained and performed using the following dataset: [NL2SparQL4NLU](https://github.com/esrel/NL2SparQL4NLU).
 
